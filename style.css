@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+    margin: 0;
+    background-color: #E7F0FF;
+    font-family: "Poppins";
+
+}
+
+
+/* Menu */
+
+.home{
+    display: flex;
+}
+.logo__menu{
+    margin: 1.5em;
+    margin-right: 0.5em;
+}
+
+.logo__nome{
+    color: #2AA8FF;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.menu{
+    background-color: white;
+    padding-right: 1em;
+    width: 15%; 
+}
+
+.menu__lista{
+    list-style-type: none;
+}
+    
+.menu__nav{
+    color: #102851;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 2px;
+}
+
+.menu__nav:hover{
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    background-color: rgb(110, 207, 245);
+    border-radius: 10px;
+}
+
+/* Banner */
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.banner__conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__texto{
+    color: #102851;
+    font-size: 25px;
+    margin: 0em;
+}
+.banner__titulo{
+    color: black;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.banner__titulo-b{
+    color: #2AA8FF;
+}
+
+.banner__img{
+    margin-top: 2em;
+    margin-left: 1.5em;
+    width: 30%;
+}
+
+/* Conteudo */
+
+.conteudo{
+    background-color: white;
+    border-radius: 2em;
+    margin: 0em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo__imagem1{
+    margin: 4em;
+}
+
+.conteudo__informa{
+    margin-right: 5em;
+}
+
+.conteudo__informa-alerta{
+    font-size: 16px;
+    color: #2AA8FF;
+    font-weight: 600;
+    margin: 0;
+}
+
+.conteudo__informa-titulo{
+    margin: 0;
+    font-size: 35px;
+}
+
+.conteudo__informa-texto{
+    color: gray;
+}
+
+.conteudo__informa-lista{
+    display: flex;
+    gap: 10px;
+    padding-right: 1em;
+}
+
+/* Rodape */
+
+.rodape{
+    margin: 3em 10em;
+}
+
+.rodape__logo{
+    display: flex;
+    gap: .5em;
+}
+
+.informacao{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo__contato{
+    margin: 0;
+}
+
+.copyright{
+    color:gray ;
+}
+
+
+

@@ -1,0 +1,14 @@
+.banner__img{
+    width: 25%;
+}
+
+.conteudo__informa{
+    padding-bottom: 2em;
+}
+.conteudo__informa-texto{
+    padding-top: 1em;
+}
+
+.conteudo__informa-alerta{
+    padding-top: 3em;
+}
